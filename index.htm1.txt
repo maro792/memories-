@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>–ﬂ—Ì« ‰« ??</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+.memory {
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+}
+
+.memory img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff4d6d;
+  color: white;
+  cursor: pointer;
+}
+
+#secret {
+  display: none;
+  margin-top: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>–ﬂ—Ì« ‰« ??</h1>
+
+<div class="memory">
+  <img src="photo1.jpg">
+  <p>√Ê· ÌÊ„ ??</p>
+</div>
+
+<div class="memory">
+  <img src="photo2.jpg">
+  <p>√Ã„· ·ÕŸ… ??</p>
+</div>
+
+<button onclick="showMessage()">«÷€ÿ Â‰« ??</button>
+
+<div id="secret">
+  ?? »Õ»ﬂ Ãœ« ??
+</div>
+
+<script>
+function showMessage() {
+  document.getElementById("secret").style.display = "block";
+}
+</script>
+
+</body>
+</html>
